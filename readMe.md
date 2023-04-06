@@ -4,7 +4,7 @@ Essentially doing it through the config sets the User-Agent header for all HTTP 
 
 Setting it on a per basis `cy.visit()` overrides the config but it won't be reflected in the network tab or by logging it, shown in this screenshot.
 
-![Headers image](../../../../Downloads/headers.png)
+![Headers image](/cypress/fixtures/headers.png)
 
 These are the areas in the docs that were confusing:
 - https://docs.cypress.io/faq/questions/using-cypress-faq#Can-I-override-or-change-the-default-user-agent-the-browser-uses
